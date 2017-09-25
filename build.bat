@@ -1,1 +1,1 @@
-set "PackageVersion=1.1.1"
+set PackageVersion="1.1.1"
