@@ -8,6 +8,6 @@ namespace MygetCITest
 {
     public class Test
     {
-        public void hehe() { }
+        public void hehe1() { }
     }
 }
