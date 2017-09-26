@@ -5,8 +5,4 @@
     <Version>2.2.2</Version>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="1\" />
-  </ItemGroup>
-
 </Project>
