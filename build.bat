@@ -7,4 +7,5 @@ REM Build
 
 REM Package
 mkdir Build
-call %nuget% pack "MygetCITest\Document\Document.csproj" -symbols -o Build -p Configuration=Release 3.0.0
+call %nuget% spec
+call %nuget% pack "Document.nuspec" -Version 2.1.0
