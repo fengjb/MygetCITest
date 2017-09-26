@@ -7,4 +7,4 @@ REM Build
 
 REM Package
 mkdir Build
-call %nuget% pack "MygetCITest\Document\Document.csproj"
+call %nuget% pack "Document\Document.csproj"
