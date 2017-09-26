@@ -4,10 +4,7 @@ if "%config%" == "" (
    set config=Release
 )
 
-set version=
-if not "%PackageVersion%" == "" (
-   set version=-Version %PackageVersion%
-)
+set version=3.0.0
 
 REM Build
 "%programfiles(x86)%\MSBuild\14.0\Bin\MSBuild.exe" MygetCITest.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
