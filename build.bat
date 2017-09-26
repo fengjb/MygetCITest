@@ -15,4 +15,3 @@ REM Build
 REM Package
 mkdir Build
 call %nuget% pack "MygetCITest\Document\Document.csproj" -symbols -o Build -p Configuration=%config% %version%
-call %nuget% pack "MygetCITest\MygetCITest\MygetCITest.csproj" -symbols -o Build -p Configuration=%config% %version%
