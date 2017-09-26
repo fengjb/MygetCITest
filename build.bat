@@ -8,4 +8,4 @@ REM Build
 REM Package
 mkdir Build
 call %nuget% spec
-call %nuget% pack "MygetCITest\Document\Document.nuspec" -Version 2.1.0
+call %nuget% pack "Document\Document.nuspec" -Version 2.1.0
