@@ -1,2 +1,5 @@
 @echo Off
-set PackageVersion=1.1.1
+set version=
+if not "%PackageVersion%" == "" (
+   set version=-Version %PackageVersion%
+)
