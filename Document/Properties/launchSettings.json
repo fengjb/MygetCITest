@@ -1,10 +1,7 @@
 {
   "profiles": {
     "Document": {
-      "commandName": "Project",
-      "environmentVariables": {
-        "PackageVersion": "2.0.0"
-      }
+      "commandName": "Project"
     }
   }
 }
